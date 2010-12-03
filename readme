@@ -1,0 +1,15 @@
+A http proxy can write the web data passed through it to local disk with original file path.
+
+该http代理程序将通过其访问的文件保存为文件,保留原始的路径.
+
+设置
+
+@include = /http:\/\/.*\//
+#包含路径的正则,保存的文件url必须符合
+
+@exclude = /google/
+#剔除的url 一旦符合就剔除优先级高于 include
+
+默认端口8080
+
+
