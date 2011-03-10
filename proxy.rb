@@ -6,7 +6,7 @@ require 'zlib'
 require 'stringio'
 
 ################################
-@include = /http:\/\/.*//
+@include = /http:\/\/.*/
 @exclude = /google/
 ################################
 
